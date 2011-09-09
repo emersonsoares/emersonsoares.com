@@ -1,0 +1,71 @@
+* { margin: 0; padding: 0; }
+
+body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
+
+.clear { clear: both; }
+
+#page-wrap { display: none; width: 800px; margin: 10px auto 60px; }
+
+#pic { float: right; margin: -20px 0 0 0; }
+
+h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+
+h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
+
+h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+
+p { margin: 0 0 16px 0; }
+
+.social { width: 100%;}
+
+.social a { float: left; margin-right: 5px;}
+
+a.email { margin-right: 185px; color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+
+a.email:hover { border-bottom-style: dotted; color: #999; }
+
+ul { margin: 0 0 32px 17px; }
+
+#objective { width: 500px; float: left; margin-top: 5px; }
+
+#objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
+
+dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; border-right: 1px solid #999; }
+
+dt.habilidades { height: 285px;}
+dt.experiencia { height: 650px;}
+dt.experiencie { height: 600px;}
+dt.educacao { height: 50px;}
+
+dd { width: 600px; float: right;  }
+
+dd.clear { float: none; margin: 0; height: 15px; }
+
+a.twitter { display: block; width: 30px; height: 30px; background: url("images/snipet.png") -66px -3px;}
+
+a.twitter:hover { background: url("images/snipet.png") -66px -35px;}
+
+a.facebook{ margin-top: -1px; display: block; width: 30px; height: 30px; background: url("images/snipet.png") -2px -2px;}
+
+a.facebook:hover{ background: url("images/snipet.png") -2px -34px;}
+
+a.linkedin{ display: block; width: 30px; height: 30px; background: url("images/snipet.png") -34px -3px;}
+
+a.linkedin:hover { background: url("images/snipet.png") -34px -35px;}
+
+a.wordpress{ display: block; width: 30px; height: 30px; background: url("images/snipet.png") -98px -3px;}
+
+a.wordpress:hover { background: url("images/snipet.png") -98px -35px;}
+
+.language-bar { width: 990px; margin: 0 auto; height:40px; }
+.language-bar a { float: right; display: block; width: 22px; height: 22px; margin-left: 5px; margin-top: 10px;}
+
+.enUS { background: url('images/flags.png') -22px -22px; }
+.enUS-hover { background: url('images/flags.png') -22px 0px; }
+.ptBR-hover { background: url('images/flags.png') 0 0;}
+.ptBR { background: url('images/flags.png') 0 -22px; }
+
+.link-bio { text-decoration: none; color: #268fbf;}
+
+::-moz-selection{ background:#000; color:#FFF;}
+::selection { background:#000; color:#FFF; }

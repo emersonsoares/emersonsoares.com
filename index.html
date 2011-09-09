@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="title" content="Emerson Soares" />
+        <meta name="description" content="Emerson Queiroz de Paula Soares, Analista de Sistemas, Desenvolvimento Web, Desktop. DotNet, PHP, Orientação a Objetos" />
+
+        <title>Emerson Soares</title>
+        <link href="css/ico/favicon.png" rel="icon" type="image/x-icon" />
+        <link href="css/ico/favicon.png" rel="shortcut icon" type="image/x-icon" />
+        <link href="css/ico/favicon.png" rel="apple-touch-icon" type="image/x-icon" />
+        <!--[if IE 6]>
+            <script type="text/javascript">
+                //<![CDATA[
+                    location.href="401.html";
+		//]]>
+            </script>
+	<![endif]-->
+        <link href="css/style.css" rel="stylesheet" media="all" />
+        <script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.cookie.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                if($.cookie('lang') != 'en-US') {
+                    $('.pt-br').fadeIn(1500);
+                    $('.en-us').hide();
+                    $('#set-ptBR').attr('class', 'ptBR-hover');
+                    $('#set-enUS').attr('class', 'enUS');
+                } else if($.cookie('lang') == 'en-US'){
+                    $('.pt-br').hide();
+                    $('.en-us').fadeIn(1500);
+                    $('#set-ptBR').attr('class', 'ptBR');
+                    $('#set-enUS').attr('class', 'enUS-hover');
+                }
+                
+                $('#set-enUS').click(function(){
+                    $('.pt-br').hide();
+                    $('.en-us').fadeIn(1500);
+                    $.cookie('lang','en-US', { expires: 365 });
+                    $('#set-ptBR').attr('class', 'ptBR');
+                    $('#set-enUS').attr('class', 'enUS-hover');
+                });
+                
+                $('#set-ptBR').click(function(){
+                    $('.en-us').hide();
+                    $('.pt-br').fadeIn(1500);
+                    $.cookie('lang','pt-BR', { expires: 365 });
+                    $('#set-ptBR').attr('class', 'ptBR-hover');
+                    $('#set-enUS').attr('class', 'enUS');
+                });
+            });
+        </script>
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-23561389-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </head>
+    <body>
+        <div class="language-bar">
+            <a href="javascript:;" title="English United States" id="set-enUS" ></a>
+            <a href="javascript:;" title="Português Brasil" id="set-ptBR"></a>
+        </div>
+        <div id="load">
+            <div id="page-wrap" class="pt-br">
+                <img src="css/images/emersonsoares.png" alt="Emerson Soares" id="pic" />
+                <div id="contact-info" class="vcard">
+                    <h1 class="fn">Emerson Soares</h1>
+                    <p class="social">
+                        <a class="email" href="mailto:dev.emerson@gmail.com">dev.emerson@gmail.com</a>
+                        <a title="Twitter" href="http://twitter.com/Emerson_Soares" target="_blank" class="twitter"></a>
+                        <a title="Facebook" href="http://facebook.com/emersonw7" target="_blank" class="facebook"></a>
+                        <a title="Linkedin" href="http://www.linkedin.com/in/emersonsoares" target="_blank" class="linkedin"></a>
+                        <a title="Visite meu blog no Wordpress" href="http://blog.emersonsoares.com" target="_blank" class="wordpress"></a>
+                    </p>
+                </div>
+                <div id="objective">
+                    <p>
+                        21 anos, graduando em Sistemas de Informação, moro em <a href="http://maps.google.com/?q=Alameda+Juriti,+1-161+Ariquemes+-+RO,+78932-235,+Brasil&ie=UTF8&hq=&hnear=Alameda+Juriti,+1+-+Ariquemes+-+Rond%C3%B4nia,+78932-235,+Brasil&t=h&z=16" class="link-bio" target="_blank">Ariquemes-RO</a>, namorado da 
+                        <a class="link-bio" href="http://twitter.com/rnataoliveira" title="Renata Oliveira" target="_blank">@rnataoliveira</a>. 
+                        Atualmente trabalhando na Tecmarte Web Soluções como desenvolvedor web,
+                        e participo do projeto Inprotec (Incubadora de Produtos de tecnologia) da 
+                        <a class="link-bio" href="http://faar.edu.br" title="Faculdades Integradas de Ariquemes" target="_blank">FAAr</a>
+                        desenvolvendo diversas soluções de gestão.Tenho experiencia com as tecnologias .net, php, HTML+CSS e,
+                        estudando Ruby On Rails, 
+                        Python entre outras linguagens, estou em constante aprendizado.
+                    </p>
+                </div>
+                <div class="clear"></div>
+                <dl>
+                    <dd class="clear"></dd>
+                    <dt class="habilidades">Habilidades</dt>
+                    <dd>
+                        <ul>
+                            <li>CSharp .net </li>
+                            <li>WPF</li>
+                            <li>WCF</li>
+                            <li>AspNet MVC3</li>
+                            <li>Entity Framework</li>
+                            <li>PHP</li>
+                            <li>HTML + CSS</li>
+                            <li>Javascript</li>
+                            <li>UML</li>
+                            <li>Orientação a Objetos</li>
+                            <li>Padrões de Projeto</li>
+                            <li>Scrum e outras métodologias ágeis</li>
+                        </ul>
+                    </dd>
+                    <dd class="clear"></dd>
+                    <dt class="experiencia">Experiencia Profissional</dt>
+                    <dd>
+                        <h2>Sócio/Desenvolvedor <span>W7Br Soluções</span></h2>
+                        <p>Fui sócio da W7Br Soluções, desde o seu inicio, trabalhando no desenvolvimento de 
+                        soluções web, até maio de 2011, onde decidi me desligar da empresa por motivos pessoais.</p>
+                        
+                        <h2>Analista Programador <span>Tecmarte Web Soluções</span></h2>
+                        <p>Trabalho em <i>home office</i> com desenvolvimento de sistemas, web e desktop desde julho de 2010 até hoje,
+                            arquitetando e desenvolvendo diversas soluções.</p>
+
+                        <h2>Analista Programador<span>Inprotec</span></h2>
+                        <p>A Inprotec é um projeto do curso de Sistemas de Informação da FAAr <i>(Faculdades Associadas de Ariquemes)</i> 
+                            que visa ser uma incubadora de produtos de tecnologia, tendo como colaboradores os alunos do curso, participo deste projeto 
+                            desde o começo <i>(03/2011)</i> atualmente estamos desenvolvendo o sistema da CPA <i>(Comissão Própria de Avaliação)</i> 
+                            para o auxilio de tomada de decisão da instituição e para um controle mais rigido das avaliações institucionais.</p>
+
+                        <h2>Estagio - Programador Web<span>Virtual Soft Informática</span></h2>
+                        <p>Atuei como estagiario, por 6 meses, participei do projeto de integração de um web service para 
+                            comunicação entre uma aplicação desktop e uma aplicação web.</p>
+
+                        <h2>Freelancer</h2>
+                        <p>Foi atuando como freelancer que adquiri a maior parte da minha experiencia,
+                            comecei aos 16 anos desenvolvendo um pequeno sistema de atualização automatica,
+                            de um jogo online em VB6 <i>(acreditem)</i>, a partir dai desenvolvi interesse por
+                            aplicações web, desenvolvi varios websites em php, em 2008 entrei na faculdade de sistemas
+                            de informação, e comecei a estudar a plataforma .Net, desenvolvi varios sistemas em .Net tambêm, sendo 
+                            hoje a minha maior ocupação o freela.</p>
+                    </dd>
+                    <dd class="clear"></dd>
+                    <dt class="educacao">Educação</dt>
+                    <dd>
+                        <ul>
+                            <li>Graduando em Sistemas de Informação (FAAr)</li>
+                            <li>Curso para certificação MCTS DotNet Framework 2.0 (SENAI)</li>
+                        </ul>
+                    </dd>
+                    <dd class="clear"></dd>
+                </dl>
+                <div class="clear"></div>
+            </div>
+            <div id="page-wrap" class="en-us">
+                <img src="css/images/emersonsoares.png" alt="Emerson Soares" id="pic" />
+                <div id="contact-info" class="vcard">
+                    <h1 class="fn">Emerson Soares</h1>
+                    <p class="social">
+                        <a class="email" href="mailto:dev.emerson@gmail.com">dev.emerson@gmail.com</a>
+                        <a title="Twitter" href="http://twitter.com/Emerson_Soares" target="_blank" class="twitter"></a>
+                        <a title="Facebook" href="http://facebook.com/emersonw7" target="_blank" class="facebook"></a>
+                        <a title="Linkedin" href="http://www.linkedin.com/in/emersonsoares" target="_blank" class="linkedin"></a>
+                        <a title="Visit my blog in Wordpress" href="http://blog.emersonsoares.com" target="_blank" class="wordpress"></a>
+                    </p>
+                </div>
+                <div id="objective">
+                    <p>
+                        21 years old, majoring in Information Systems, I live in <a href="http://maps.google.com/?q=Alameda+Juriti,+1-161+Ariquemes+-+RO,+78932-235,+Brasil&ie=UTF8&hq=&hnear=Alameda+Juriti,+1+-+Ariquemes+-+Rond%C3%B4nia,+78932-235,+Brasil&t=h&z=16" class="link-bio" target="_blank">Ariquemes-RO</a>, <a class="link-bio" href="http://twitter.com/rnataoliveira" title="Renata Oliveira" target="_blank">@rnataoliveira's</a> boyfriend. 
+                        Currently working on Tecmart Web Solutions as a web developer,
+                        and participate in project Inprotec (Incubator of technology products) 
+                        of <a class="link-bio" href="http://www.faar.edu.br" title="Associated Colleges of Ariquemes" target="_blank">Faar</a> 
+                        developing diverse management solutions. 
+                        I have experience with the technologies .net, php, HTML + CSS and, 
+                        studying Ruby on Rails, Python and other languages​​, i'm constantly learning.
+                    </p>
+                </div>
+                <div class="clear"></div>
+                <dl>
+                    <dd class="clear"></dd>
+                    <dt class="habilidades">Skills</dt>
+                    <dd>
+                        <ul>
+                            <li>CSharp .net </li>
+                            <li>WPF</li>
+                            <li>WCF</li>
+                            <li>AspNet MVC3</li>
+                            <li>Entity Framework</li>
+                            <li>PHP</li>
+                            <li>HTML + CSS</li>
+                            <li>Javascript</li>
+                            <li>UML</li>
+                            <li>Object Orientation</li>
+                            <li>Design Patterns</li>
+                            <li>Scrum and other agile methodologies</li>
+                        </ul>
+                    </dd>
+                    <dd class="clear"></dd>
+                    <dt class="experiencie">Professional Experience</dt>
+                    <dd>
+                        <h2>Partner / Developer <span>W7Br Solutions</span></h2>
+                        <p>I was a partner of W7Br Solutions since its start, working on developing web solutions, until May 2011 where I decided to leave the company for personal reasons.</p>
+                        
+                        <h2>Analyst Programmer <span>Tecmart Web Solutions</span></h2>
+                        <p>Working in <i>home office</i> with sistems development, web and desktop from July 2010 until today
+                            architecting and developing several solutions.</p>
+
+                        <h2>Analyst Programmer<span>Inprotec</span></h2>
+                        <p>The Inprotec is a project of the course of <i>Information Systems of FAAr (Associated Colleges of Ariquemes)</i>
+                            that aims to be an incubator of technology products, with students as collaborators of course, 
+                            take part in this project from the start <i>(2011/03)</i> we are currently developing the system of the CPA 
+                            <i>(Commission for assessment)</i> to aid decision-making institution and for a stricter control 
+                            of institutional assessment.</p>
+
+                        <h2>Trainee - Web Developer<span>Virtual Soft Computing</span></h2>
+                        <p>Worked as an trainee for six months, participated in the project of 
+                            integrating a web service for communication between a desktop application and a web application.</p>
+
+                        <h2>Freelancer</h2>
+                        <p>He was working as a freelancer who got most of my experience, 
+                            I started at 16 years developing a small system update automatically,
+                            an online game in VB6 <i>(believe)</i>, from there developed an interest in web applications, 
+                            developed several websites in php, in 2008 I joined the academy of Information Systems, 
+                            and began to study the DotNet platform, developed various systems in DotNet too, 
+                            Today is the busiest my freelance.</p>
+                    </dd>
+                    <dd class="clear"></dd>
+                    <dt class="educacao">Education</dt>
+                    <dd>
+                        <ul>
+                            <li>Majoring in Information Systems (FAAr)</li>
+                            <li>MCTS Certification Course for DotNet Framework 2.0 (SENAI)</li>
+                        </ul>
+                    </dd>
+                    <dd class="clear"></dd>
+                </dl>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </body>
+</html>
